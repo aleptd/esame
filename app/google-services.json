@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "342339744592",
+    "firebase_url": "https://park-plat.firebaseio.com",
+    "project_id": "park-plat",
+    "storage_bucket": "park-plat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342339744592:android:2a86b760363eca69293255",
+        "android_client_info": {
+          "package_name": "com.example.autenticazione"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342339744592-756cj3l9506n5aig3a6do6fefpp1li54.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.autenticazione",
+            "certificate_hash": "bff6a129e9cd0d5f17f2c1557506651e1e612e4b"
+          }
+        },
+        {
+          "client_id": "342339744592-8u9eqlct3gdrbogq37tuvacocaa8d7o0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.autenticazione",
+            "certificate_hash": "588f1d67dfaf6130a111f92998dbbd7a3ac19c22"
+          }
+        },
+        {
+          "client_id": "342339744592-dcgoe8h8crih38md0cm9tei2amel843s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTbsSl1H-u51hJtc7avkK_jSzVl-wau1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342339744592-dcgoe8h8crih38md0cm9tei2amel843s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

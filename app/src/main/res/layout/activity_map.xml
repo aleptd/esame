@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapActivity">
+
+    <include
+        android:id="@+id/home_bar"
+        layout="@layout/home_bar"
+        android:layout_width="415dp"
+        android:layout_height="46dp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-4dp"></include>
+
+    <TextView
+        android:id="@+id/tMapActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tMapActivity"
+        android:textColor="@color/colorBackground"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/home_bar"
+        app:layout_constraintEnd_toEndOf="@+id/home_bar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/home_bar" />
+
+    <ImageButton
+        android:id="@+id/ibBack"
+        android:layout_width="32dp"
+        android:layout_height="39dp"
+        android:onClick="goBackToMainActivity"
+        app:layout_constraintBottom_toBottomOf="@+id/home_bar"
+        app:layout_constraintEnd_toEndOf="@+id/home_bar"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="@+id/home_bar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.351"
+        app:srcCompat="@drawable/back" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="352dp"
+        android:layout_height="579dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/home_bar"
+        app:layout_constraintVertical_bias="0.657" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fRequests"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentMyRequests">
+
+    <ListView
+        android:id="@+id/listMyRequests"
+        android:layout_width="match_parent"
+        android:layout_height="555dp"
+        android:layout_gravity="bottom"
+        android:backgroundTint="@color/colorBackground"
+        android:cacheColorHint="@color/colorPrimaryDark"
+        android:clickable="true"
+        android:focusable="auto"
+        android:focusableInTouchMode="true" />
+</FrameLayout>
