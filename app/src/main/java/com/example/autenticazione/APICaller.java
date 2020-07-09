@@ -103,7 +103,7 @@ public class APICaller {
                         String status = "";
                         String data = "";
                         try {
-                            status = response.getString("users");
+                            status = response.getString("status");
                             data = response.getString("data");
                         } catch (JSONException e) {
                             e.printStackTrace();
